@@ -21,13 +21,16 @@ h1 {
 
 h2 {
   font-size: 32px;
+  margin-bottom: 8px;
 }
 
 h3 {
   font-size: 28px;
+  margin-bottom: 4px;
 }
 
 img {
+  width: fit-content;
   border-radius: 28px;
 }
 
@@ -39,7 +42,6 @@ strong {
 
 #content-top {
   padding-bottom: 40px;
-  border-bottom: 1px solid #D9D9D9;
 }
 
 #content-top img {
@@ -51,6 +53,43 @@ strong {
   font-style: italic;
 }
 
+#content-second {
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+}
+
 #content-second section {
   margin: 64px 0;
+}
+
+#content-second ol .places {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+#tips img {
+  margin-bottom: 20px;
+}
+
+#tips ul p {
+  font-weight: 700;
+}
+
+#tips ul {
+  margin-bottom: 48px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 70px;
+}
+
+footer span {
+  font-family: 'Alice', serif;
+  color: #333333;
 }
