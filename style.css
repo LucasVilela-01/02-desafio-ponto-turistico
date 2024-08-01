@@ -6,11 +6,51 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+  color: #333333;
+}
+
 main {
   width: 1120px;
   margin: 80px auto 142px;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
 img {
   border-radius: 28px;
+}
+
+strong {
+  color: #E1624F;
+
+  margin-bottom: 8px;
+}
+
+#content-top {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+#content-top img {
+  margin: 44px 0 24px;
+}
+
+#content-top p {
+  text-align: center;
+  font-style: italic;
+}
+
+#content-second section {
+  margin: 64px 0;
 }
