@@ -72,12 +72,31 @@ strong {
   margin-bottom: 20px;
 }
 
+#tips ul {
+  margin-bottom: 48px;
+}
+
 #tips ul p {
   font-weight: 700;
 }
 
-#tips ul {
-  margin-bottom: 48px;
+#tips ul li {
+  margin-left: 25px;
+  color: #0C51A7;
+  font-weight: bold;
+  list-style: disc;
+}
+
+#tips .color-1 {
+  color: #591B98;
+}
+
+#tips .color-2 {
+  color: #E5245E;
+}
+
+#tips .color-3 {
+  color: #E95E10;
 }
 
 footer {
